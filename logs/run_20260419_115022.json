@@ -1,0 +1,26 @@
+{
+    "ticket": "cancel ORD404",
+    "intent": "cancel",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": "Order service unavailable"
+        },
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD404",
+                "status": "shipped",
+                "amount": 406.27
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ticket": "hello",
+    "intent": "unknown",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": "No order ID"
+        }
+    ]
+}

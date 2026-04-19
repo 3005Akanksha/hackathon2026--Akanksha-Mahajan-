@@ -1,0 +1,25 @@
+{
+    "ticket": "123",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": "Order service unavailable"
+        },
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD123",
+                "status": "cancelled",
+                "amount": 197.53
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

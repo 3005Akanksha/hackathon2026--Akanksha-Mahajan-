@@ -1,0 +1,26 @@
+{
+    "ticket": "ORD124",
+    "intent": "unknown",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": "Order service unavailable"
+        },
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD124",
+                "status": "cancelled",
+                "amount": 856.98
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

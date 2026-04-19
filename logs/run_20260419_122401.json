@@ -1,0 +1,22 @@
+{
+    "ticket": "ORD555",
+    "intent": "unknown",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD555",
+                "status": "shipped",
+                "amount": 222.69
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

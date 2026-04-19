@@ -1,0 +1,22 @@
+{
+    "ticket": "track ORD444",
+    "intent": "tracking",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD444",
+                "status": "cancelled",
+                "amount": 943.64
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

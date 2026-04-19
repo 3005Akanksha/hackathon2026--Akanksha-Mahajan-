@@ -1,0 +1,22 @@
+{
+    "ticket": "cancel my order ORD111",
+    "intent": "cancel",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD111",
+                "status": "cancelled",
+                "amount": 993.4
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

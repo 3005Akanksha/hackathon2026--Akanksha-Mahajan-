@@ -1,0 +1,10 @@
+{
+    "ticket": "my thing is broken pls help hey so the thing i bought isnt working right can you help me out",
+    "intent": "unknown",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": "No order ID"
+        }
+    ]
+}

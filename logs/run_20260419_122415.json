@@ -1,0 +1,22 @@
+{
+    "ticket": "ORD777",
+    "intent": "unknown",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD777",
+                "status": "delivered",
+                "amount": 328.13
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": true
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

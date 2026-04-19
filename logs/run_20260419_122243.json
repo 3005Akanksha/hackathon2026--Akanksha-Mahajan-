@@ -1,0 +1,22 @@
+{
+    "ticket": "refund ORD666",
+    "intent": "refund",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD666",
+                "status": "delivered",
+                "amount": 776.51
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": true
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}
