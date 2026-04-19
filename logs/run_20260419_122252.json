@@ -1,0 +1,26 @@
+{
+    "ticket": "track order ORD505",
+    "intent": "tracking",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": "Order service unavailable"
+        },
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD505",
+                "status": "shipped",
+                "amount": 687.57
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

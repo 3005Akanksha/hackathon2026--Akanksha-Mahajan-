@@ -1,0 +1,26 @@
+{
+    "ticket": "refund ORD606",
+    "intent": "refund",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": "Order service unavailable"
+        },
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD606",
+                "status": "cancelled",
+                "amount": 146.23
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

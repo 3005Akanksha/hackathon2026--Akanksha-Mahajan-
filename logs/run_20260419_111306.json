@@ -1,0 +1,21 @@
+{
+    "ticket": "ORD123",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD123",
+                "status": "shipped",
+                "amount": 279.49
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

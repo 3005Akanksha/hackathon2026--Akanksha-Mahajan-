@@ -1,0 +1,22 @@
+{
+    "ticket": "where is my order ORD777",
+    "intent": "tracking",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD777",
+                "status": "shipped",
+                "amount": 299.06
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

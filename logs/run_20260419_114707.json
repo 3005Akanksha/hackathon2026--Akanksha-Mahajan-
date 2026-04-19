@@ -1,0 +1,26 @@
+{
+    "ticket": "ORD555",
+    "intent": "unknown",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": "Order service unavailable"
+        },
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD555",
+                "status": "cancelled",
+                "amount": 973.58
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}

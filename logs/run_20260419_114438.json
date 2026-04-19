@@ -1,0 +1,22 @@
+{
+    "ticket": "ORD123",
+    "intent": "unknown",
+    "steps": [
+        {
+            "action": "fetch_order",
+            "result": {
+                "order_id": "ORD123",
+                "status": "cancelled",
+                "amount": 671.41
+            }
+        },
+        {
+            "action": "check_refund",
+            "result": false
+        },
+        {
+            "action": "finish",
+            "result": "completed"
+        }
+    ]
+}
